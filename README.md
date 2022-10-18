@@ -1,2 +1,2 @@
 # vue-sample
-1. vue프로젝트 생성후 visual code연동진행.
+1. 저장소 생성. vue프로젝트 생성. visual code연동진행.
