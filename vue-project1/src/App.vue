@@ -1,14 +1,28 @@
+<!--
+<script src="https://unpkg.com/vconsole@latest/dist/vconsole.min.js"></script>
+<script>
+  // VConsole will be exported to `window.VConsole` by default.
+  var vConsole = new window.VConsole();
+</script>
+-->
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+// import VConsole from 'vconsole'
+// const vConsole = new VConsole({ theme: 'dark' });
+// console.log('jhwon_test Start!!');
+
+console.log('jhwon_test Start!!');
+
+
+
+
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="first~!!" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
